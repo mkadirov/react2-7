@@ -1,0 +1,178 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    
+  }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    overflow-x: hidden !important;
+}
+
+.dark-bg{
+  background-color: #212B36;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coral {
+  color: coral;
+}
+
+.container-box{
+
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+}
+
+.animation {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    
+}
+
+
+
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.button-box {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  
+}
+
+.base-btn {
+  position: absolute;
+  box-shadow: inset 0 0 10px 5px rgba(22, 22, 22, 0.356);
+}
+
+.accounting {
+  top: 80px;
+  left: 20px;
+  transform: rotate(-25deg); 
+  
+}
+
+.health-button {
+    left: 60%;
+    top: 60px;
+    transform: rotate(30deg);
+}
+
+.software {
+  left: 20px;
+  bottom: 90px;
+}
+.banking {
+  top: 50%;
+  right: 0;
+  transform: rotate(20deg);
+  
+}
+
+
+.image {
+    width: 300px;
+    height: 390px;
+}
+
+.base-circle {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+}
+
+.circle1 {
+  animation: rotate 60s linear infinite;
+}
+
+.circle2 {
+  animation: rotate2 100s linear infinite;
+}
+
+.circle3 {
+  
+  border: 2px dotted rgba(165, 162, 162, 0.651);
+  animation: rotate2 120s linear infinite;
+}
+
+.circle4 {
+    animation: rotate2 80s linear infinite;
+  }
+.circle5 {
+    animation: rotate 140s linear infinite;
+  }
+
+.rotating-icon {
+  position: absolute;
+  top: 50%; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: coral;
+}
+.icon2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+  }
+.icon3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: blue;
+  }
+.icon4 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: violet;
+  }
+
+
