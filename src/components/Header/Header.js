@@ -27,12 +27,11 @@ export default function Header() {
 
     
   return (
-    <>
-      
-    <Box className= "dark-bg">
+    
+    <Box className= "dark-bg" position='sticky'>
     <Container >
     <Box sx={{ flexGrow: 1 }} >
-      <AppBar position="static" sx={{backgroundColor: "inherit", boxShadow: 'none'}} >
+      <AppBar position='sticky' sx={{backgroundColor: "inherit", boxShadow: 'none'}} >
         <Toolbar >
          
           <Box display="flex"
@@ -135,6 +134,5 @@ export default function Header() {
     </Container>
     </Box>
       
-    </>
   )
 }

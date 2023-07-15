@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./components/Header/Header";
 import Loading from "./components/Loading/Loading";
 import Section1 from "./components/Section1/Section1";
-import { Box } from "@mui/material";
 import Section2 from "./components/Section2/Section2";
 import Section3 from "./components/Section3/Section3";
 import Section4 from "./components/Section4/Section4";
@@ -21,9 +20,8 @@ function App() {
   
   return (
     <>
-      <Box position='sticky'>
-       <Header/>
-      </Box>
+      
+      <Header/>
       <Loading/>
       <Section1/>
       <Section2/>

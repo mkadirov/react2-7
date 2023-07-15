@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Button, Typography } from "@mui/material";
 import { AccountBalance, Add, AddIcon, Block, Calculate, Circle, Delete, Mail, MonitorHeart, Send, Settings, Star} from '@mui/icons-material';
-import '../../App.css'
+import './App.css'
 
 export default function Animation() {
   return (
