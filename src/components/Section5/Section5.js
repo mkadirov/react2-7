@@ -13,8 +13,8 @@ function Section5() {
     })
   return (
     <Container>
-        <Grid container paddingY={10}>
-            <Grid item xs={12} md={12} lg={4}>
+        <Grid container paddingY={10}  justifyContent='center'>
+            <Grid item xs={12} md={10} lg={4}>
                 <Box marginBottom={5}>
                     <Typography variant='h2' fontWeight={500}>
                         Global Connections
@@ -30,7 +30,7 @@ function Section5() {
 
                 </Box>
             </Grid>
-            <Grid item xs={12} md={12} lg={8}>
+            <Grid item xs={10} md={10} lg={8} >
                 <Carousel2/>
             </Grid>
         </Grid>

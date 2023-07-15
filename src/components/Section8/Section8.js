@@ -1,11 +1,16 @@
-import { Box, Container, Grid, Typography } from '@mui/material'
+import { Box, Container, Grid, Typography, styled } from '@mui/material'
 import { grey } from '@mui/material/colors'
 import React from 'react'
 import Carousel4 from '../Carousel/Carousel4'
 
 function Section8() {
+
+  const Wrapper = styled(Box)({
+    overflowX:'hidden'
+  })
   return (
-    <Container>
+    <Wrapper >
+      <Container>
         <Box paddingY={12}>
             <Grid container justifyContent='center'>
                 <Grid item xs={10} md= {8} lg={6}>
@@ -26,6 +31,7 @@ function Section8() {
             </Box>
         </Box>
     </Container>
+    </Wrapper>
   )
 }
 

@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
 import Carousel1 from '../Carousel/Carousel1'
 import { blue } from '@mui/material/colors'
@@ -12,7 +12,11 @@ function Section3() {
         </Typography>
 
         <Box marginY={10}>
-            <Carousel1/>
+            <Grid container justifyContent='center'>
+              <Grid item xs={10}>
+                <Carousel1/>
+              </Grid>
+            </Grid>
         </Box>
     </Box>
   )
